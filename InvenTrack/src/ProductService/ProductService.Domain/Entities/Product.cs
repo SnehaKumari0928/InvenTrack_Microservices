@@ -1,4 +1,8 @@
-﻿namespace ProductService.ProductService.Domain.Entities
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ProductService.Domain.Entities
 {
     public class Product
     {

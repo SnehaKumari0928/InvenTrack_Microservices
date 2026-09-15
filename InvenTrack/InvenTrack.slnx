@@ -1,5 +1,13 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/ProductService/ProductService.csproj" Id="e0ec542f-a148-44a5-b6c6-8ed9b130c200" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/ProductService/">
+    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Application/ProductService.Application.csproj" Id="190135d7-a7d1-4f5d-a52b-fe31d1b50ba1" />
+    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Domain/ProductService.Domain.csproj" Id="953c4911-687c-4f9d-a8cf-d57c3f1241b4" />
+    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Infrastructure/ProductService.Infrastructure.csproj" Id="6c378436-f8a4-4637-9441-ddedfa2aa611" />
+    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Presentation/ProductService.Presentation.csproj" Id="a23e5d7c-0756-4728-8716-bd405309230a" />
+  </Folder>
+  <Folder Name="/src/shared/">
+    <Project Path="D:/Inventory_Management/InvenTrack/shared/Shared.Common/Shared.Common.csproj" Id="d196165a-3e1b-4906-8fb5-5f25a294907b" />
   </Folder>
 </Solution>

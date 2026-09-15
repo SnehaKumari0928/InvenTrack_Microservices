@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using ProductService.Application.DTOs;
+using ProductService.Application.Interfaces;
+using ProductService.Domain.Entities;
+using ProductService.Domain.Interfaces;
+using Shared.Common.Exceptions;
+
+namespace ProductService.Application.Services
+{
+    public class ProductService : IProductService
+    {
+        private readonly IProductRepository _repository;
+
+        public ProductService(IProductRepository repository)
+        {
+            _repository = repository;
+        }
+
+        public async Task<ProductDto> CreateAsync(CreateProductRequest request)
+        {
+            var exists = await _repository.GetBySkuAsync(request.SKU);
+            if (exists is not null)
+                throw new ValidationException($"A product with SKU '{request.SKU}' already exists.");
+
+            var product = new Product(request.Name, request.SKU, request.Description, request.Price, request.Category);
+            await _repository.AddAsync(product);
+            return MapToDto(product);
+        }
+
+        public async Task DeleteAsync(Guid id)
+        {
+            var existing = await _repository.GetByIdAsync(id);
+            if (existing is null)
+                throw new NotFoundException();
+
+            await _repository.DeleteAsync(existing);
+        }
+
+        public async Task<IEnumerable<ProductDto>> GetAllAsync()
+        {
+            var items = await _repository.GetAllAsync();
+            return items.Select(MapToDto);
+        }
+
+        public async Task<ProductService.Application.Responses.PagedResult<ProductDto>> QueryAsync(ProductService.Application.Requests.ProductQueryRequest request)
+        {
+            var pageNumber = request.PageNumber <= 0 ? 1 : request.PageNumber;
+            var pageSize = request.PageSize <= 0 ? 20 : request.PageSize;
+
+            var (items, total) = await _repository.QueryAsync(request.Search, request.Category, pageNumber, pageSize, request.SortBy);
+            var dtos = items.Select(MapToDto);
+            return new ProductService.Application.Responses.PagedResult<ProductDto>(dtos, total);
+        }
+
+        public async Task<ProductDto?> GetByIdAsync(Guid id)
+        {
+            var p = await _repository.GetByIdAsync(id);
+            if (p is null)
+                throw new NotFoundException();
+            return MapToDto(p);
+        }
+
+        public async Task UpdateAsync(Guid id, UpdateProductRequest request)
+        {
+            var existing = await _repository.GetByIdAsync(id);
+            if (existing is null)
+                throw new NotFoundException();
+
+            existing.Update(request.Name, request.Description, request.Price, request.Category);
+            await _repository.UpdateAsync(existing);
+        }
+
+        public async Task<ProductDto?> GetBySkuAsync(string sku)
+        {
+            var p = await _repository.GetBySkuAsync(sku);
+            if (p is null)
+                throw new NotFoundException();
+            return MapToDto(p);
+        }
+
+        private static ProductDto MapToDto(Product p) => new ProductDto(p.Id, p.Name, p.SKU, p.Description, p.Price, p.Category);
+    }
+}

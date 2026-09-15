@@ -1,0 +1,14 @@
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\bin\Debug\net10.0\ProductService.Domain.deps.json
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\bin\Debug\net10.0\ProductService.Domain.runtimeconfig.json
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\bin\Debug\net10.0\ProductService.Domain.dll
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\bin\Debug\net10.0\ProductService.Domain.pdb
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.AssemblyInfoInputs.cache
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.AssemblyInfo.cs
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.csproj.CoreCompileInputs.cache
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.sourcelink.json
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.dll
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\refint\ProductService.Domain.dll
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.pdb
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ProductService.Domain.genruntimeconfig.cache
+D:\Inventory_Management\InvenTrack\src\ProductService\ProductService.Domain\obj\Debug\net10.0\ref\ProductService.Domain.dll

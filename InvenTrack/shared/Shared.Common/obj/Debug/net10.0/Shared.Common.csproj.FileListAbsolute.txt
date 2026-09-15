@@ -1,0 +1,15 @@
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\bin\Debug\net10.0\Shared.Common.deps.json
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\bin\Debug\net10.0\Shared.Common.runtimeconfig.json
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\bin\Debug\net10.0\Shared.Common.dll
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\bin\Debug\net10.0\Shared.Common.pdb
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.csproj.AssemblyReference.cache
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.AssemblyInfoInputs.cache
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.AssemblyInfo.cs
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.csproj.CoreCompileInputs.cache
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.sourcelink.json
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.dll
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\refint\Shared.Common.dll
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.pdb
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\Shared.Common.genruntimeconfig.cache
+D:\Inventory_Management\InvenTrack\shared\Shared.Common\obj\Debug\net10.0\ref\Shared.Common.dll
