@@ -14,9 +14,7 @@ namespace ProductService.Domain.Interfaces
 
         Task<IEnumerable<Product>> GetAllAsync();
 
-        /// <summary>
-        /// Query products with optional search, category, paging and sorting. Returns items and total count.
-        /// </summary>
+    
         Task<(IEnumerable<Product> Items, int TotalCount)> QueryAsync(string? search, string? category, int pageNumber, int pageSize, string? sortBy);
 
         Task AddAsync(Product product);

@@ -7,6 +7,8 @@ using ProductService.Application.Interfaces;
 using ProductService.Domain.Entities;
 using ProductService.Domain.Interfaces;
 using Shared.Common.Exceptions;
+using ProductService.Application.Requests;
+using ProductService.Application.Responses;
 
 namespace ProductService.Application.Services
 {
@@ -25,7 +27,7 @@ namespace ProductService.Application.Services
             if (exists is not null)
                 throw new ValidationException($"A product with SKU '{request.SKU}' already exists.");
 
-            var product = new Product(request.Name, request.SKU, request.Description, request.Price, request.Category);
+            var product = new Product(request.Name, request.SKU, request.Description, request.Price, request.Category, request.SupplierId);
             await _repository.AddAsync(product);
             return MapToDto(product);
         }
@@ -45,14 +47,14 @@ namespace ProductService.Application.Services
             return items.Select(MapToDto);
         }
 
-        public async Task<ProductService.Application.Responses.PagedResult<ProductDto>> QueryAsync(ProductService.Application.Requests.ProductQueryRequest request)
+        public async Task<PagedResult<ProductDto>> QueryAsync(ProductQueryRequest request)
         {
             var pageNumber = request.PageNumber <= 0 ? 1 : request.PageNumber;
             var pageSize = request.PageSize <= 0 ? 20 : request.PageSize;
 
             var (items, total) = await _repository.QueryAsync(request.Search, request.Category, pageNumber, pageSize, request.SortBy);
             var dtos = items.Select(MapToDto);
-            return new ProductService.Application.Responses.PagedResult<ProductDto>(dtos, total);
+            return new PagedResult<ProductDto>(dtos, total);
         }
 
         public async Task<ProductDto?> GetByIdAsync(Guid id)
@@ -81,6 +83,6 @@ namespace ProductService.Application.Services
             return MapToDto(p);
         }
 
-        private static ProductDto MapToDto(Product p) => new ProductDto(p.Id, p.Name, p.SKU, p.Description, p.Price, p.Category);
+        private static ProductDto MapToDto(Product p) => new ProductDto(p.Id, p.Name, p.SKU, p.Description, p.Price, p.Category, p.SupplierId);
     }
 }

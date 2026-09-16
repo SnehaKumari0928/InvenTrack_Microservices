@@ -1,11 +1,32 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/services/" />
+  <Folder Name="/src/services/InventoryService/">
+    <Project Path="src/services/InventoryService.Presentation/InventoryService.Presentation.csproj" Id="76d9851b-a118-4ce6-9ba3-83f35b056de2" />
+    <Project Path="src/services/InventoryService/InventoryService.Application/InventoryService.Application.csproj" Id="4eaa7eb6-1f05-4eb7-8a58-cf9ee383b52e" />
+    <Project Path="src/services/InventoryService/InventoryService.Domain/InventoryService.Domain.csproj" Id="fc535415-db0a-4cc0-b7cd-bc7db4c22846" />
+    <Project Path="src/services/InventoryService/InventoryService.Infrastructure/InventoryService.Infrastructure.csproj" Id="ed95af00-e133-400b-9663-e4c6936e0b7f" />
+  </Folder>
+  <Folder Name="/src/services/OrderService/">
+    <Project Path="src/services/OrderService/OrderService.Application/OrderService.Application.csproj" Id="f3967d4c-d15f-49ea-b929-0b56510bf2dc" />
+    <Project Path="src/services/OrderService/OrderService.Domain/OrderService.Domain.csproj" Id="3a215597-8d9e-44c5-a1ec-72e7a6c60083" />
+    <Project Path="src/services/OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" Id="41440155-1520-492e-bd04-b0cf83527e32" />
+    <Project Path="src/services/OrderService/OrderService.Presentation/OrderService.Presentation.csproj" Id="322693f0-9ac4-4ae9-b42f-373a35018067" />
+  </Folder>
   <Folder Name="/src/services/ProductService/">
     <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Application/ProductService.Application.csproj" Id="190135d7-a7d1-4f5d-a52b-fe31d1b50ba1" />
     <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Domain/ProductService.Domain.csproj" Id="953c4911-687c-4f9d-a8cf-d57c3f1241b4" />
     <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Infrastructure/ProductService.Infrastructure.csproj" Id="6c378436-f8a4-4637-9441-ddedfa2aa611" />
     <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Presentation/ProductService.Presentation.csproj" Id="a23e5d7c-0756-4728-8716-bd405309230a" />
+  </Folder>
+  <Folder Name="/src/services/SupplierService/">
+    <Project Path="src/services/SupplierService/SupplierService.Application/SupplierService.Application.csproj" Id="317b3b87-532e-4122-8812-ac0204c2c450" />
+    <Project Path="src/services/SupplierService/SupplierService.Domain/SupplierService.Domain.csproj" Id="a08ebe6d-124d-480f-89ac-fdb0c605a98b" />
+    <Project Path="src/services/SupplierService/SupplierService.Infrastructure/SupplierService.Infrastructure.csproj" Id="b1f0da52-78f2-42e6-bb70-2955b4a406a2" />
+    <Project Path="src/services/SupplierService/SupplierService.Presentation/SupplierService.Presentation.csproj" Id="6b1ebc02-41af-4394-82fa-523412c7e112" />
   </Folder>
   <Folder Name="/src/shared/">
     <Project Path="D:/Inventory_Management/InvenTrack/shared/Shared.Common/Shared.Common.csproj" Id="d196165a-3e1b-4906-8fb5-5f25a294907b" />

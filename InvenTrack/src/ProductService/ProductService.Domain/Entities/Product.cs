@@ -18,6 +18,8 @@ namespace ProductService.Domain.Entities
 
         public string Category { get; private set; } = string.Empty;
 
+        public Guid SupplierId { get; private set; }
+
         private Product()
         {
 
@@ -27,7 +29,8 @@ namespace ProductService.Domain.Entities
           string sku,
           string description,
           decimal price,
-          string category)
+          string category,
+          Guid supplierId)
         {
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Product name is required.");
@@ -41,12 +44,16 @@ namespace ProductService.Domain.Entities
             if (string.IsNullOrWhiteSpace(category))
                 throw new ArgumentException("Category is required.");
 
+            if (supplierId == Guid.Empty)
+                throw new ArgumentException("SupplierId is required.");
+
             Id = Guid.NewGuid();
             Name = name;
             SKU = sku;
             Description = description;
             Price = price;
             Category = category;
+            SupplierId = supplierId;
         }
 
         public void Update(
