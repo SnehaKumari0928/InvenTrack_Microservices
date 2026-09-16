@@ -5,10 +5,10 @@
   <Folder Name="/src/" />
   <Folder Name="/src/services/" />
   <Folder Name="/src/services/InventoryService/">
-    <Project Path="src/services/InventoryService.Presentation/InventoryService.Presentation.csproj" Id="76d9851b-a118-4ce6-9ba3-83f35b056de2" />
     <Project Path="src/services/InventoryService/InventoryService.Application/InventoryService.Application.csproj" Id="4eaa7eb6-1f05-4eb7-8a58-cf9ee383b52e" />
     <Project Path="src/services/InventoryService/InventoryService.Domain/InventoryService.Domain.csproj" Id="fc535415-db0a-4cc0-b7cd-bc7db4c22846" />
     <Project Path="src/services/InventoryService/InventoryService.Infrastructure/InventoryService.Infrastructure.csproj" Id="ed95af00-e133-400b-9663-e4c6936e0b7f" />
+    <Project Path="src/services/InventoryService/InventoryService.Presentation/InventoryService.Presentation.csproj" Id="071c50f0-a8db-4592-870b-eb6a1f044809" />
   </Folder>
   <Folder Name="/src/services/OrderService/">
     <Project Path="src/services/OrderService/OrderService.Application/OrderService.Application.csproj" Id="f3967d4c-d15f-49ea-b929-0b56510bf2dc" />
