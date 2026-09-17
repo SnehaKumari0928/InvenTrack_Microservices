@@ -1,6 +1,0 @@
-using System;
-
-namespace ProductService.Application.DTOs
-{
-    public record CreateProductRequest(string Name, string SKU, string Description, decimal Price, string Category, Guid SupplierId);
-}
