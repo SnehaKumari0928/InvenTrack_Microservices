@@ -15,7 +15,12 @@ namespace OrderService.Presentation.Controllers
             _orderService = orderService;
         }
 
-
+        [HttpGet]
+        public async Task<IActionResult> GetOrders()
+        {
+            var orders = await _orderService.GetAllAsync();
+            return Ok(orders);
+        }
 
     }
 }
