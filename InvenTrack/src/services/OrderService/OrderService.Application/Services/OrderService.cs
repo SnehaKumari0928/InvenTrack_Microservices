@@ -10,7 +10,7 @@ using System.Text;
 
 namespace OrderService.Application.Services
 {
-    public class OrderService
+    public class OrderService: IOrderService
     {
         private readonly IOrderRepository _repository;
         private readonly IProductClient _productClient;
@@ -30,7 +30,7 @@ namespace OrderService.Application.Services
         }
 
 
-        public async Task<OrderDto> CreateOrderAsync(CreateOrderRequest request)
+        public async Task<OrderDto> CreateAsync(CreateOrderRequest request)
         {
             if (request.UserId == Guid.Empty)
             {
