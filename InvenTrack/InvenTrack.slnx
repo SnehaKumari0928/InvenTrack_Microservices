@@ -17,10 +17,10 @@
     <Project Path="src/services/OrderService/OrderService.Presentation/OrderService.Presentation.csproj" Id="322693f0-9ac4-4ae9-b42f-373a35018067" />
   </Folder>
   <Folder Name="/src/services/ProductService/">
-    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Application/ProductService.Application.csproj" Id="190135d7-a7d1-4f5d-a52b-fe31d1b50ba1" />
-    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Domain/ProductService.Domain.csproj" Id="953c4911-687c-4f9d-a8cf-d57c3f1241b4" />
-    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Infrastructure/ProductService.Infrastructure.csproj" Id="6c378436-f8a4-4637-9441-ddedfa2aa611" />
-    <Project Path="D:/Inventory_Management/InvenTrack/src/ProductService/ProductService.Presentation/ProductService.Presentation.csproj" Id="a23e5d7c-0756-4728-8716-bd405309230a" />
+    <Project Path="src/services/ProductService/ProductService.Application/ProductService.Application.csproj" Id="4cf349aa-7251-49b3-93e8-4c9b73268dc3" />
+    <Project Path="src/services/ProductService/ProductService.Domain/ProductService.Domain.csproj" Id="572c268f-f8b0-4393-955b-f9914934fdf5" />
+    <Project Path="src/services/ProductService/ProductService.Infrastructure/ProductService.Infrastructure.csproj" Id="9e98c1f9-08ab-4353-9c74-989a43028914" />
+    <Project Path="src/services/ProductService/ProductService.Presentation/ProductService.Presentation.csproj" Id="092d96d4-4978-4fa8-a1f7-db6c8cdeec5d" />
   </Folder>
   <Folder Name="/src/services/SupplierService/">
     <Project Path="src/services/SupplierService/SupplierService.Application/SupplierService.Application.csproj" Id="317b3b87-532e-4122-8812-ac0204c2c450" />

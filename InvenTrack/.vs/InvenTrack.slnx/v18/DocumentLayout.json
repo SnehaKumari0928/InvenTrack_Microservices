@@ -147,7 +147,7 @@
               "RelativeDocumentMoniker": "src\\services\\InventoryService\\InventoryService.Presentation\\appsettings.json",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\services\\InventoryService\\InventoryService.Presentation\\appsettings.json",
               "RelativeToolTip": "src\\services\\InventoryService\\InventoryService.Presentation\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-16T11:39:23.719Z",
               "EditorCaption": ""
@@ -256,7 +256,6 @@
               "RelativeDocumentMoniker": "src\\ProductService\\ProductService.Presentation\\ProductService.Presentation.csproj",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\ProductService\\ProductService.Presentation\\ProductService.Presentation.csproj",
               "RelativeToolTip": "src\\ProductService\\ProductService.Presentation\\ProductService.Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-09-16T06:28:26.295Z"
             },
@@ -448,7 +447,6 @@
               "RelativeDocumentMoniker": "src\\ProductService\\ProductService.Domain\\Entities\\Product.cs",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\ProductService\\ProductService.Domain\\Entities\\Product.cs",
               "RelativeToolTip": "src\\ProductService\\ProductService.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T04:31:24.337Z"
             },
@@ -460,7 +458,6 @@
               "RelativeDocumentMoniker": "src\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
               "RelativeToolTip": "src\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T04:37:30.021Z"
             },
@@ -472,7 +469,6 @@
               "RelativeDocumentMoniker": "src\\ProductService\\ProductService.Application\\DTOs\\ProductDto.cs",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\ProductService\\ProductService.Application\\DTOs\\ProductDto.cs",
               "RelativeToolTip": "src\\ProductService\\ProductService.Application\\DTOs\\ProductDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAABQwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T04:37:20.796Z"
             },
@@ -484,7 +480,6 @@
               "RelativeDocumentMoniker": "src\\ProductService\\ProductService.Application\\DTOs\\CreateProductRequest.cs",
               "ToolTip": "E:\\Inven\\InvenTrack\\src\\ProductService\\ProductService.Application\\DTOs\\CreateProductRequest.cs",
               "RelativeToolTip": "src\\ProductService\\ProductService.Application\\DTOs\\CreateProductRequest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAABQwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T04:37:13.064Z"
             },
