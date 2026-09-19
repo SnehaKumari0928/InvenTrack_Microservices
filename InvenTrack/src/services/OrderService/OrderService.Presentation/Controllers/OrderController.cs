@@ -22,5 +22,16 @@ namespace OrderService.Presentation.Controllers
             return Ok(orders);
         }
 
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetOrder([FromRoute] Guid id)
+        {
+            var order = await _orderService.GetByIdAsync(id);
+            if (order == null)
+            {
+                return NotFound();
+            }
+            return Ok(order);
+        }
+
     }
 }
